@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ color: white;
+  background: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+    url('pupleblack.jpg');
+  background-size: cover;
+  background-position: center; 
+
+}
+.container-main{
+    width: 100%;
+    background-color: red;
+}
+.sec{
+  max-width:1400px;
+    margin:auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+      flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom:50px;
+    border-radius: 20px;
+    line-height: 30px;
+    background-color: aquamarine;
+
+}
+.left-text-sec{
+    width:50%;
+    background-color: red; 
+      box-sizing: border-box; 
+
+
+}
+.right-img-sec{
+    width:50%;
+    background-color: aqua;
+      box-sizing: border-box; /* includes padding and border in width */
+
+}
+@media (max-width: 768px) {
+  .sec{
+    flex-direction: column;
+  }
+  .left-text-sec{
+    width: 100%;
+  }
+  .right-img-sec{
+    width: 100%;
+  }
+}
