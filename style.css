@@ -826,12 +826,13 @@ width: 50%;
   margin: auto;
   
 }
-a:focus,
+/* a:focus,
 a:active {
+  
   outline: none;
-  box-shadow: 0 0 0 3px #9d0071;
-  color: #9d0071;
-}
+  box-shadow: 0 0 0 3px #9d0071; */
+  /* color: #9d0071; */
+
 .copyright{
   margin: 10px;
 }
