@@ -235,8 +235,6 @@ height:100%;
      overflow-wrap: break-word;  
     word-wrap: break-word;  
     word-break: break-word;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 .wordpress-text{
     /* width:600px;
@@ -309,8 +307,7 @@ height:100%;
   font-weight: 700px;
   color: #ffffff;
   font-weight: 200px;
-  font-size: 65px;
-  padding-top: 25px;
+  font-size: 60px;
   line-height: 55px;
 }
 .about-me{
@@ -326,8 +323,9 @@ height:100%;
   line-height: 1.5;
 }
 .box {
+  border-radius: 12px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr  ;
   padding: 10px;
 }
 .box > div {
@@ -336,6 +334,8 @@ height:100%;
   padding: 10px;
   font-size: 18px;
   text-align: center;
+  border-radius: 12px;
+  margin:5px;
 }
 
 table {
@@ -1059,15 +1059,59 @@ width: 100%;
   grid-template-columns: 1fr ;
   padding: 10px;
 }
-/* .box > div {
- background-color: #3e1835;
-  border:1px solid rgb(62 47 47);
-  padding: 10px;
-  font-size: 18px; */
-
- 
 }
 
-
+@media (max-width: 425px)
+{
+  .footer-divider {
+    width:400px;
+  }
+  .left-textsec-sec {
+    margin-top: 0px;
+  }
+  .box{
+    grid-template-columns: 1fr ;
+  }
+  .left-text-sec{
+    width:100%;
+  }
+  .left-text-sec.Hire-me{
+    padding-top: 0;
+  }
+  .about-heading{
+    padding-top:10px;
+  }
+  .about{
+    padding-top: 0;
+  }
+  .portfoliopara{
+    padding-top: 0;
+    
+  }
+  .Follow-me{
+    flex-direction: column;
+  }
+  .follow-text{
+    width: 100%;
+  }
+  .sec{
+    padding-top: 0;
+  }
+  .mazdoori{
+    padding-top: 10px;
+  }
+  .portfolio{
+    padding-top: 10px;
+  }
+  .num{
+    width:10%;
+  }
+  .service-name{
+    width:30%;
+  }
+  .service-description{
+    width:60%;
+  }
+}
 
 
