@@ -325,6 +325,18 @@ height:100%;
   font-size: 16px;
   line-height: 1.5;
 }
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  padding: 10px;
+}
+.box > div {
+ background-color: #3e1835;
+  border:1px solid rgb(62 47 47);
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+}
 
 table {
   border-collapse: collapse;
@@ -1027,8 +1039,23 @@ width: 100%;
 .footer-divider{
   width:200px;
 }
-
-
+.left-textsec-sec{
+  margin-top:0px
+}
+.left-text-sec{
+  width:100%;
+}
+.btn{
+  padding: 5px 10px;
+}
+.about-butns{
+  gap:25px;
+}
+.btn-follow{
+  margin-right: 200px;
+}
+ 
+ 
 }
 
 
