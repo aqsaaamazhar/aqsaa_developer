@@ -1064,7 +1064,7 @@ width: 100%;
 @media (max-width: 425px)
 {
   .footer-divider {
-    width:400px;
+    width:300px;
   }
   .left-textsec-sec {
     margin-top: 0px;
